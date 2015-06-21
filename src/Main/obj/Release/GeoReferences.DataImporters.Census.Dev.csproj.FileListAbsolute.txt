@@ -1,0 +1,3 @@
+C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.Census\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.GeoReferences.DataImporters.Census.dll
+C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.Census\src\Main\obj\Release\GeoReferences.DataImporters.Census.Dev.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.Census\src\Main\obj\Release\Tamu.GeoInnovation.GeoReferences.DataImporters.Census.dll

@@ -7,8 +7,8 @@ using USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.Interfaces;
 using USC.GISResearchLab.Common.Core.Databases;
 using USC.GISResearchLab.Common.Databases.ConnectionStringManagers;
 using USC.GISResearchLab.Common.Databases.QueryManagers;
-using USC.GISResearchLab.Common.Utils.Files;
 using USC.GISResearchLab.Common.Utils.Directories;
+using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.AbstractClasses
 {

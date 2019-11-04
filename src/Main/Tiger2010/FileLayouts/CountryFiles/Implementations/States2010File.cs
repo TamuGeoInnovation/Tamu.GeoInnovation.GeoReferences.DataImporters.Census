@@ -9,8 +9,8 @@ namespace USC.GISResearchLab.Common.Census.Tiger2010.FileLayouts.CountryFiles.Im
             : base(stateName)
         {
 
-            ExcludeColumns = new string[] 
-            { 
+            ExcludeColumns = new string[]
+            {
                 "uniqueId"
             };
 

@@ -9,8 +9,8 @@ namespace USC.GISResearchLab.Common.Census.Tiger1990.FileLayouts.StateFiles.Impl
             : base(stateName)
         {
 
-            ExcludeColumns = new string[] 
-            { 
+            ExcludeColumns = new string[]
+            {
                 "uniqueId",
                 "tr" + stateFips + "_d90_",
                 "tr" + stateFips + "_d90_I",

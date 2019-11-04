@@ -1,15 +1,15 @@
-﻿using System;
+﻿using ICSharpCode.SharpZipLib.Zip;
+using System;
 using System.Collections;
 using System.Data;
 using System.IO;
-using ICSharpCode.SharpZipLib.Zip;
 using USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.AbstractClasses;
 using USC.GISResearchLab.Common.Utils.Directories;
 using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountryFiles.AbstractClasses
 {
-    public abstract class AbstractTiger2015CountryFileLayout: AbstractTiger2015FileLayout
+    public abstract class AbstractTiger2015CountryFileLayout : AbstractTiger2015FileLayout
     {
 
         public AbstractTiger2015CountryFileLayout()

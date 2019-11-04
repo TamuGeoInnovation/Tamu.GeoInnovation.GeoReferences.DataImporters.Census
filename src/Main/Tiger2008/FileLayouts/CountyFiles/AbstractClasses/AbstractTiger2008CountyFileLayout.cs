@@ -9,7 +9,7 @@ using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.CountyFiles.AbstractClasses
 {
-    public abstract class AbstractTiger2008CountyFileLayout: AbstractTiger2008FileLayout
+    public abstract class AbstractTiger2008CountyFileLayout : AbstractTiger2008FileLayout
     {
 
         public AbstractTiger2008CountyFileLayout(string tableName)
@@ -125,7 +125,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.CountyFiles.Abs
                     string now = DateTime.Now.Millisecond.ToString();
                     string fileName = FileUtils.GetFileNameWithoutExtension(zipFileLocation);
                     tempDirectory = FileUtils.GetDirectoryPath(zipFileLocation) + "_temp_" + fileName + "_" + now + "\\";
-                    
+
                     if (Directory.Exists(tempDirectory))
                     {
                         Directory.Delete(tempDirectory, true);

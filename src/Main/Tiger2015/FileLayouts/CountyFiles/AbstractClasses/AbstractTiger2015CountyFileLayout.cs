@@ -1,15 +1,15 @@
-﻿using System;
+﻿using ICSharpCode.SharpZipLib.Zip;
+using System;
 using System.Collections;
 using System.Data;
 using System.IO;
-using ICSharpCode.SharpZipLib.Zip;
 using USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.AbstractClasses;
 using USC.GISResearchLab.Common.Utils.Directories;
 using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountyFiles.AbstractClasses
 {
-    public abstract class AbstractTiger2015CountyFileLayout: AbstractTiger2015FileLayout
+    public abstract class AbstractTiger2015CountyFileLayout : AbstractTiger2015FileLayout
     {
 
         public AbstractTiger2015CountyFileLayout(string tableName)
@@ -125,7 +125,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountyFiles.Abs
                     string now = DateTime.Now.Millisecond.ToString();
                     string fileName = FileUtils.GetFileNameWithoutExtension(zipFileLocation);
                     tempDirectory = FileUtils.GetDirectoryPath(zipFileLocation) + "_temp_" + fileName + "_" + now + "\\";
-                    
+
                     if (Directory.Exists(tempDirectory))
                     {
                         Directory.Delete(tempDirectory, true);

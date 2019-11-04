@@ -17,7 +17,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.CountyFiles.Imp
             SplitAddressRangesColumns = new string[] { "fromHN", "toHN" };
 
             ShouldAddEvenOddFlag = true;
-            AddEvenOddFlagColumns = new string[] { "fromHN_Number", "toHN_Number"};
+            AddEvenOddFlagColumns = new string[] { "fromHN_Number", "toHN_Number" };
 
 
             SQLCreateTable += "CREATE TABLE [" + OutputTableName + "] (";

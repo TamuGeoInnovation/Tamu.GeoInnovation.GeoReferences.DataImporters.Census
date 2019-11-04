@@ -9,7 +9,7 @@ using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2010.FileLayouts.StateFiles.AbstractClasses
 {
-    public abstract class AbstractTiger2010StateFileLayout: AbstractTiger2010FileLayout
+    public abstract class AbstractTiger2010StateFileLayout : AbstractTiger2010FileLayout
     {
 
         public AbstractTiger2010StateFileLayout(string tableName)

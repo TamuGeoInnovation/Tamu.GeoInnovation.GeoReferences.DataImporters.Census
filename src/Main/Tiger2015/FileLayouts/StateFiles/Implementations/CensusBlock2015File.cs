@@ -4,14 +4,14 @@ namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.StateFiles.Impl
 {
     public class CensusBlock2015File : AbstractTiger2015ShapefileStateFileLayout
     {
-        
+
 
         public CensusBlock2015File(string stateName)
             : base(stateName)
         {
 
-            ExcludeColumns = new string[] 
-            { 
+            ExcludeColumns = new string[]
+            {
                 "uniqueId",
             };
 

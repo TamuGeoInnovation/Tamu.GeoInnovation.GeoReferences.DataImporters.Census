@@ -12,7 +12,7 @@ using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.AbstractClasses
 {
-    public abstract class AbstractTiger2008FileLayout: ITigerFileLayout
+    public abstract class AbstractTiger2008FileLayout : ITigerFileLayout
     {
 
         #region Events
@@ -38,10 +38,10 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.AbstractClasses
         public string[] SQLCreateViews { get; set; }
 
         public string[] ExcludeColumns { get; set; }
-        
+
         public bool HasSoundexColumns { get; set; }
         public string[] SoundexColumns { get; set; }
-        
+
         public bool HasEndPointsColumns { get; set; }
         public string[] EndPointsColumns { get; set; }
 
@@ -70,7 +70,8 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.AbstractClasses
 
         public string OutputTableName
         {
-            get {
+            get
+            {
                 string ret = "";
                 if (!String.IsNullOrEmpty(StateName))
                 {

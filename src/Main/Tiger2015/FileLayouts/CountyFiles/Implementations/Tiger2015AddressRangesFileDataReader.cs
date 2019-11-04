@@ -125,13 +125,13 @@ namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountyFiles.Imp
                             {
                                 string column = SplitAddressRangesColumns[i];
                                 string orig = (string)GetValue(GetOrdinal(column));
-                                
+
                                 int numberRange = -1;
                                 string unitRange = "";
 
                                 if (NumberUtils.IsInt(orig))
                                 {
-                                    numberRange = Convert.ToInt32( orig);
+                                    numberRange = Convert.ToInt32(orig);
                                 }
                                 else
                                 {
@@ -158,7 +158,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountyFiles.Imp
                                 {
                                     temp[temp.Length - 2] = numberRange;
                                 }
-                                
+
                                 temp[temp.Length - 1] = unitRange;
                                 CurrentRow = temp;
                             }

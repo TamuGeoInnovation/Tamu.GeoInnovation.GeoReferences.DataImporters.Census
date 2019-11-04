@@ -66,7 +66,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2010.FileLayouts.CountyFiles.Imp
             SQLPostInsertTableDelete += "     FROM ";
             SQLPostInsertTableDelete += "      dbo." + StateName + "_edges ";
             SQLPostInsertTableDelete += "    ); ";
-           
+
         }
 
         public override IDataReader GetDataReader(string fileLocation)

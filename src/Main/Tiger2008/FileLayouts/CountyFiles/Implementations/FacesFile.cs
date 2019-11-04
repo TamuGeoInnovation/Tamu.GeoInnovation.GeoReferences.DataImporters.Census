@@ -10,10 +10,10 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.CountyFiles.Imp
 
             FileName = "faces.zip";
 
-            ExcludeColumns = new string[] { 
-                "countyName00", "couSubName00", "subMcdName00", "conCtyName00", "placeName00", 
-                "countyName00_Soundex", "couSubName00_Soundex", "subMcdName00_Soundex", "conCtyName00_Soundex", "placeName00_Soundex", 
-                "countyName00_SoundexDM", "couSubName00_SoundexDM", "subMcdName00_SoundexDM", "conCtyName00_SoundexDM", "placeName00_SoundexDM", 
+            ExcludeColumns = new string[] {
+                "countyName00", "couSubName00", "subMcdName00", "conCtyName00", "placeName00",
+                "countyName00_Soundex", "couSubName00_Soundex", "subMcdName00_Soundex", "conCtyName00_Soundex", "placeName00_Soundex",
+                "countyName00_SoundexDM", "couSubName00_SoundexDM", "subMcdName00_SoundexDM", "conCtyName00_SoundexDM", "placeName00_SoundexDM",
             };
 
             SQLCreateTable += "CREATE TABLE [" + OutputTableName + "] (";

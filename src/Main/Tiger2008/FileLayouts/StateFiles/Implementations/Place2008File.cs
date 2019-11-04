@@ -13,7 +13,7 @@ namespace USC.GISResearchLab.Common.Census.Tiger2008.FileLayouts.StateFiles.Impl
 
             HasSoundexColumns = true;
             HasSoundexDMColumns = true;
-            SoundexColumns = new string[] { "Name"};
+            SoundexColumns = new string[] { "Name" };
             SoundexDMColumns = new string[] { "Name" };
 
             //ExcludeColumns = new string[] { "Name00_Soundex", "Name00_SoundexDM" };

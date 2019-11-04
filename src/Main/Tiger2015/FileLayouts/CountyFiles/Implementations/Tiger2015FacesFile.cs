@@ -10,14 +10,14 @@ namespace USC.GISResearchLab.Common.Census.Tiger2015.FileLayouts.CountyFiles.Imp
 
             FileName = "faces.zip";
 
-            ExcludeColumns = new string[] { 
-                "countyName00", "couSubName00", "subMcdName00", "conCtyName00", "placeName00", 
-                "countyName00_Soundex", "couSubName00_Soundex", "subMcdName00_Soundex", "conCtyName00_Soundex", "placeName00_Soundex", 
-                "countyName00_SoundexDM", "couSubName00_SoundexDM", "subMcdName00_SoundexDM", "conCtyName00_SoundexDM", "placeName00_SoundexDM", 
+            ExcludeColumns = new string[] {
+                "countyName00", "couSubName00", "subMcdName00", "conCtyName00", "placeName00",
+                "countyName00_Soundex", "couSubName00_Soundex", "subMcdName00_Soundex", "conCtyName00_Soundex", "placeName00_Soundex",
+                "countyName00_SoundexDM", "couSubName00_SoundexDM", "subMcdName00_SoundexDM", "conCtyName00_SoundexDM", "placeName00_SoundexDM",
 
-                "countyName10", "couSubName10", "subMcdName10", "conCtyName10", "placeName10", 
-                "countyName10_Soundex", "couSubName10_Soundex", "subMcdName10_Soundex", "conCtyName10_Soundex", "placeName10_Soundex", 
-                "countyName10_SoundexDM", "couSubName10_SoundexDM", "subMcdName10_SoundexDM", "conCtyName10_SoundexDM", "placeName10_SoundexDM", 
+                "countyName10", "couSubName10", "subMcdName10", "conCtyName10", "placeName10",
+                "countyName10_Soundex", "couSubName10_Soundex", "subMcdName10_Soundex", "conCtyName10_Soundex", "placeName10_Soundex",
+                "countyName10_SoundexDM", "couSubName10_SoundexDM", "subMcdName10_SoundexDM", "conCtyName10_SoundexDM", "placeName10_SoundexDM",
             };
 
             SQLCreateTable += "CREATE TABLE [" + OutputTableName + "] (";
